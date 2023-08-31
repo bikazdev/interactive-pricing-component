@@ -13,9 +13,10 @@
 
 
 # Avoid Folder
-design/
+design/*
 
 # Avoid File
+!design/desktop-preview.jpg
 README-template.md
 style-guide.md
 
