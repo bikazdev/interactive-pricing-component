@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 1rem; }
+    .attribution a { color: hsl(353, 71%, 47%); }
+    
+  </style>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+
+<main>
+  <header>
+    <h3>Simple, traffic-based pricing</h3>
+    <p>Sign-up for our 30-day trial. No credit card required. </p>
+  </header>
+  <div class="app-container">
+    <div class="prices">
+      <h5 class="pageview">10K Pageviews</h5>
+      <div>
+        <span class="price">$8.00</span>
+        <span class="plan">/ month</span>
+      </div>
+      <input class="range" type="range" step="25" min="0" max="100" value="0">
+    </div>
+    <div class="checkbox">
+      <span>Monthly Billing</span>
+      <input class="check" type="checkbox">
+      <span>Yearly Billing</span>
+    </div>
+    <div class="advantages">
+      <div>
+        <span>Unlimited websites</span>
+        <span>100% data ownership</span>
+        <span>Email reports</span>
+      </div>
+      <button>Start my trial</button>
+    </div>
+  </div>
+</main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/bikazdev">BikazDev</a>.
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
