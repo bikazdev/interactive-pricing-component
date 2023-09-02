@@ -24,16 +24,16 @@ inputRange.addEventListener("input", function () {
     case 0:
       productHandler(products, 0);
       break;
-    case 25:
+    case 1:
       productHandler(products, 1);
       break;
-    case 50:
+    case 2:
       productHandler(products, 2);
       break;
-    case 75:
+    case 3:
       productHandler(products, 3);
       break;
-    case 100:
+    case 4:
       productHandler(products, 4);
       break;
   }
